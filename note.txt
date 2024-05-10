@@ -1,0 +1,7 @@
+Fonts
+    - PlayfairDisplay Italic-400, Regular-400, Black-900, Bold-700, 
+    - Inconsolata Regular
+    - Ubuntu Light
+
+Logo - Menu => 370px
+Menu each => 120px

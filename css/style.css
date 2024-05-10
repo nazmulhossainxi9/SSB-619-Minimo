@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* header starts */
+.navbar{
+    width: 100%;
+    padding: 3% 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: inconsolata;
+    font-size: 34px;
+    letter-spacing: 10px;
+    width: 45%;
+}
+
+.menu{
+    width: 55%;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+
+/* first post starts */
+.container2{
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    margin-top: 75px;
+    width: 100%;
+}
+
+/* first post starts */
+.container2{
+    margin-top: 100px;
+    width: 60%;
+}
+
+.container2 h4{
+    text-transform: uppercase;
+    font-family: ubuntu;
+    font-weight: 300;
+    color: rgb(100, 100, 100);
+    margin: 5% 0;
+}
+
+.container2 h2{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+}
+
+.container2 p{
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+    color: rgb(100, 100, 100);
+    margin: 30px 0;
+}
+
+/* cards starts */
+
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+    width: 530px;
+    text-align: justify;
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img{
+    width: 100%;
+}
+
+.firstcards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15% 0;
+}
+
+.secondcards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15% 0;
+}
+
+.thirdcards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15% 0;
+}
+
+/* news letter starts */
+
+.newsletter{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 290px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h2{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.text input{
+    width: 400px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding: 3% 0;
+    color:rgb(0, 0, 0);
+}
+
+.fa{
+    font-size: 18px;
+    margin-left: -15px;
+    color: black;
+}
+
+/* load more starts */
+
+.load{
+    text-align: center;
+}
+
+button{
+    font-family: "Playfair Display", serif;
+    background: transparent;
+    border: 1px solid rgb(100, 100, 100);;
+    padding: 1% 2%;
+    font-size: 22px;
+    color:rgb(100, 100, 100);
+    margin-bottom: 80%;
+}
+
+/* footer starts */
+footer{
+    font-family: "Playfair Display", serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.bottom{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .text ul li{
+    list-style: none;
+}
+
+.bottom .text ul li a{
+    color: black;
+    margin-right: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.social span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.bottom .social .fa{
+    color: rgb(121, 121, 121);
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
